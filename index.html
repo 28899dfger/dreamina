@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+mkdir -p public
+echo "<!DOCTYPE html><html><head><title>My Site</title></head><body>Hello Netlify</body></html>" > public/index.html
+git add public/index.html
+git commit -m "Add index.html"
+git push
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
